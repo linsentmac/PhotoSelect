@@ -1,3 +1,4 @@
 # PhotoSelect
 
-How to Use PhotoSelect
+What is The PhotoSelect?
+============
