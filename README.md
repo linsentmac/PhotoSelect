@@ -9,13 +9,18 @@ What is The PhotoSelect?
 How to compile the library?
 =====
 
-Add it to your project build.gradle with:
+Add it to your build.gradle with:
 
 allprojects {<br>
-       repositories {<br>
-           jcenter()<br>
-           maven { url "https://jitpack.io" }<br>
-       }<br>
+    repositories {<br>
+        maven { url "https://jitpack.io" }<br>
+    }<br>
 }<br>
+and:<br>
+
+dependencies {<br>
+    compile 'com.github.jitpack:android-example:{latest version}'<br>
+}<br>
+
 
     
