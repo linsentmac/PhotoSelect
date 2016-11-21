@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40.9dp"
+    android:background="@color/__picker_title_layout_bg">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/__picker_back_white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/__picker_get_image"
+        android:textSize="17.78sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/__picker_common_primary"/>
+
+    <Button
+        android:id="@+id/get_ensure"
+        android:layout_width="52.15dp"
+        android:layout_height="25.48dp"
+        android:text="@string/__picker_ensure"
+        android:textColor="@color/__picker_white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="9.5dp"
+        android:layout_centerVertical="true"
+        android:background="@color/__picker_common_yellow"
+        />
+
+</RelativeLayout>
