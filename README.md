@@ -12,10 +12,10 @@ How to compile the library?
 Add it to your project build.gradle with:
 
 allprojects {<br>
-    repositories {<br>
-        jcenter()<br>
-        maven { url "https://jitpack.io" }<br>
-    }<br>
+       repositories {<br>
+           jcenter()<br>
+           maven { url "https://jitpack.io" }<br>
+       }<br>
 }<br>
 
     
