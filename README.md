@@ -32,7 +32,7 @@ and:
 
 ```
 dependencies {
-    compile 'com.github.jitpack:android-example:{latest version}'
+    compile 'com.github.linsentmac:PhotoSelect:{latest version}'
 }
 ```
 
